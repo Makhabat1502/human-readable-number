@@ -1,7 +1,7 @@
 module.exports = function toReadable (number) {
     let ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve']
-        teens = ['', '', '', 'thirteen', "forteen", 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
-        tenner = ['', 'ten', 'twenty', 'thirty', "fourty", 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+        teens = ['', '', '', 'thirteen', "fourteen", 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
+        tenner = ['', 'ten', 'twenty', 'thirty', "forty", 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
     let res = ''
     let strNumber = String(number)
     
